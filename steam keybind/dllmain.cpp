@@ -16,7 +16,7 @@ void init()
 
 }
 
-bool __stdcall DllMain(void* module, DWORD dll, LPVOID reserved)
+bool __stdcall DllMain(void* module, unsigned long dll, void* reserved)
 {
     UNREFERENCED_PARAMETER(module);
     UNREFERENCED_PARAMETER(reserved);
